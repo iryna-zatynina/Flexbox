@@ -1,3 +1,92 @@
-.h1 {
-    color:brown;
+body {
+    background-color: #e2e7ec;
+    font-family: "NeueHansKendrick", sans-serif; 
+    
+    
+}
+
+main {
+    margin: 90px auto 78px auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1120px;
+    min-height: 1100px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.first-img {
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 80%), url("images/Layer8.png");
+    height: 540px;
+    flex: 0 1 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.block {
+    background-color: white;
+    flex: 0 1 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.under-img {
+    display: flex;
+    flex-direction: column;
+    height: 245px;
+    padding: 20px 28px 20px 28px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: bold;
+    flex: 1 1 auto;
+    
+}
+
+.data {
+    color: #818181;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 30px;
+    max-height: 30px;
+    height: 100%;
+    margin-bottom: 10px;
+    
+}
+
+.first-data {
+    margin: 0 0 20px 44px;
+}
+
+.first-title {
+    color: white;
+    font-size: 30px;
+    line-height: 36px;
+    flex: 0 0 auto;
+    margin: 0 0 40px 44px;
+    max-width: 440px;
+}
+
+footer {
+    color: #818181;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+footer div {
+    margin-left: 15px;
+}
+
+@font-face {
+    font-family: "NeueHansKendrick";  
+    src: url("fonts/NeueHansKendrick-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
 }

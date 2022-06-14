@@ -1,8 +1,6 @@
 body {
     background-color: #e2e7ec;
     font-family: "NeueHansKendrick", sans-serif; 
-    
-    
 }
 
 main {
@@ -10,17 +8,34 @@ main {
     display: flex;
     flex-wrap: wrap;
     max-width: 1120px;
-    min-height: 1100px;
     justify-content: space-between;
     align-content: space-between;
 }
 .first-img {
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 80%), url("images/Layer8.png");
-    height: 540px;
-    flex: 0 1 740px;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 80%), url("images/Layer8.png") no-repeat;
+    flex: 0 0 740px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.first-data {
+    color: #818181;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 30px;
+    margin: 0 0 20px 44px;
+}
+
+.first-title {
+    color: white;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 70%;
+    margin: 0 0 40px 44px;
 }
 
 .block {
@@ -28,12 +43,12 @@ main {
     flex: 0 1 360px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .under-img {
     display: flex;
     flex-direction: column;
-    height: 245px;
     padding: 20px 28px 20px 28px;
 }
 
@@ -43,7 +58,11 @@ main {
     line-height: 30px;
     font-weight: bold;
     flex: 1 1 auto;
-    
+    margin-bottom: 70px;
+}
+
+.no-data {
+    margin-top: 30px;
 }
 
 .data {
@@ -51,24 +70,13 @@ main {
     text-transform: uppercase;
     font-size: 13px;
     line-height: 30px;
-    max-height: 30px;
-    height: 100%;
     margin-bottom: 10px;
-    
 }
 
-.first-data {
-    margin: 0 0 20px 44px;
+.photo {
+    width: 56px;
 }
 
-.first-title {
-    color: white;
-    font-size: 30px;
-    line-height: 36px;
-    flex: 0 0 auto;
-    margin: 0 0 40px 44px;
-    max-width: 440px;
-}
 
 footer {
     color: #818181;
@@ -78,7 +86,7 @@ footer {
     font-weight: bold;
     display: flex;
     justify-content: center;
-    margin-bottom: 28px;
+    margin-bottom: 110px;
 }
 footer div {
     margin-left: 15px;

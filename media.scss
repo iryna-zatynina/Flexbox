@@ -1,0 +1,22 @@
+@media (max-width: 757px) {
+    main {
+        margin: 0 auto 30px auto;
+    }
+    .first-img {
+        flex: 0 0 360px;
+    }
+    footer {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 757px) {
+    .first-img {
+        flex: 0 1 310px;
+    }
+    .block {
+        background-color: white;
+        flex: 0 1 310px;
+    }
+}
+

@@ -8,16 +8,18 @@ main {
     display: flex;
     flex-wrap: wrap;
     max-width: 1120px;
-    justify-content: space-between;
+    justify-content: center;
     align-content: space-between;
+    gap: 20px;
 }
 .first-img {
-    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 80%), url("images/Layer8.png") no-repeat;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 80%), url("images/Layer8.png") center no-repeat;
+    background-size: cover;
     flex: 0 0 740px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-bottom: 20px;
+    height: 547px;
 }
 
 .first-data {
@@ -43,7 +45,13 @@ main {
     flex: 0 1 360px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    
+}
+
+.img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .under-img {

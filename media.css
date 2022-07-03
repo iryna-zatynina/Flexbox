@@ -1,0 +1,28 @@
+@media (max-width: 757px) {
+  main {
+    margin: 0 auto 30px auto;
+  }
+  .first-img {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 360px;
+            flex: 0 0 360px;
+  }
+  footer {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 757px) {
+  .first-img {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 310px;
+            flex: 0 1 310px;
+  }
+  .block {
+    background-color: white;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 310px;
+            flex: 0 1 310px;
+  }
+}
+/*# sourceMappingURL=media.css.map */
